@@ -1,0 +1,12 @@
+Source: ros-jade-object-recognition-ros
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-jade-actionlib, ros-jade-catkin, ros-jade-cmake-modules, ros-jade-ecto, ros-jade-ecto-image-pipeline, ros-jade-ecto-ros, ros-jade-geometric-shapes, ros-jade-object-recognition-core, ros-jade-object-recognition-msgs, ros-jade-pluginlib, ros-jade-visualization-msgs
+Homepage: wg-perception.github.io/object_recognition_ros
+Standards-Version: 3.9.2
+
+Package: ros-jade-object-recognition-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-jade-actionlib, ros-jade-ecto, ros-jade-ecto-image-pipeline, ros-jade-ecto-ros, ros-jade-geometric-shapes, ros-jade-object-recognition-core, ros-jade-object-recognition-msgs, ros-jade-pluginlib, ros-jade-rostopic
+Description: object_recognition_core contains tools to launch several recognition pipelines, train objects, store models ...
