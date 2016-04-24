@@ -1,0 +1,12 @@
+Source: ros-kinetic-object-recognition-ros
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-actionlib, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-ecto, ros-kinetic-ecto-image-pipeline, ros-kinetic-ecto-ros, ros-kinetic-geometric-shapes, ros-kinetic-object-recognition-core, ros-kinetic-object-recognition-msgs, ros-kinetic-pluginlib, ros-kinetic-visualization-msgs
+Homepage: wg-perception.github.io/object_recognition_ros
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-object-recognition-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-actionlib, ros-kinetic-ecto, ros-kinetic-ecto-image-pipeline, ros-kinetic-ecto-ros, ros-kinetic-geometric-shapes, ros-kinetic-object-recognition-core, ros-kinetic-object-recognition-msgs, ros-kinetic-pluginlib, ros-kinetic-rostopic
+Description: object_recognition_core contains tools to launch several recognition pipelines, train objects, store models ...
