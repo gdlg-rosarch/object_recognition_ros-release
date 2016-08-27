@@ -1,3 +1,9 @@
+0.3.7 (2016-08-27)
+------------------
+* fix compilation on Jessie and Willy
+* no C++11 for indigo and jade
+* Contributors: Vincent Rabaud
+
 0.3.6 (2016-08-27)
 ------------------
 * do not risk anything bellow kinetic
